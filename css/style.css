@@ -1,0 +1,514 @@
+/* boton fijo arriba */
+
+.float-ar {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    bottom: 40px;
+    left:  60px;
+    color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    text-align: center;
+    z-index: 999;  
+}
+
+.bi-arrow-up-circle-fill {
+    font-size: 60px;
+
+}
+
+.float-ar:hover {
+    color: rgba(255, 255, 255, 0.54);
+}
+
+/* boton fijo whatsapp */
+
+.float-wh {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 15px;
+    right: 30px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 6px #999;
+    z-index: 999;  
+}
+
+.bi-whatsapp {
+    font-size: 40px;
+}
+
+.float-wh:hover {
+    background-color: #20e267;
+}
+
+
+
+
+
+/* estilos barra navegacion */
+
+.navbar {
+    padding: 2rem;
+    color: rgb(190, 20, 20);
+    background-color: rgba(190, 20, 20, .5);
+}
+
+.navbar-collapse .navbar-brand {
+    font-size: 3rem;
+    color: rgb(165, 15, 15);
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-collapse .navbar-brand:hover {
+    font-size: 3rem;
+    color: rgb(165, 15, 15);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-collapse .nav-item a {
+    font-size: 1.5rem;
+    color: rgb(165, 15, 15);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.navbar-collapse .nav-item a:hover {
+    border-bottom: 3px solid rgb(165, 15, 15);
+    color: rgb(165, 15, 15);
+    font-weight: 600;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+/* secion hero */
+
+.hero {
+    height: 500px;
+    padding: 10px;
+    
+}
+
+.hero .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.seccion-hero  {
+    background-image: url(../img/9.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+.seccion-titulo {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    padding: 15px 0;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 20);
+}
+
+.seccion-texto {
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 2rem;
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 20);
+}
+
+.texto-blanco {
+    color: white;
+}
+
+.container-fluid .btn-info {
+    background: rgb(165, 15, 15);
+    border:none;
+    color: white;
+}
+
+.container-fluid .btn-info:hover {
+    background: white;
+}
+
+
+/* services */
+ 
+.services h1 {
+    color: rgb(199, 23, 23);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 20);
+}
+
+.services h4 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform:capitalize;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+
+.background-body {
+    padding: 40px 40px 60px 40px;
+    background-color: rgba(190, 20, 20, .5);
+}
+
+.services .columna {
+    color: black;
+    padding: 20px;
+    border: 2px solid rgba(190, 20, 20, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.5s ease-in;
+}
+
+.services .columna:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(199, 23, 23);
+}
+
+
+.services img {
+    height: 150px;
+    width: 160px;
+    font-size: 2.5rem;
+
+    background-color: rgb(199, 23, 23);
+    padding: 5px 5px;
+    border-radius: 50%;
+} 
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 1px;
+}
+
+.services .btn-primary {
+    background: rgb(165, 15, 15);
+    border:none;
+    font-weight: 600;
+    color: black;
+}
+
+.services .btn-primary:hover {
+    background: white;
+    font-weight: 600;
+    color: black;
+}
+
+/* testimonios */
+
+.testimonios {
+    display: flex;
+}
+
+.testimonios h1 {
+    color: rgb(199, 23, 23);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 20);
+}
+
+.testimonios h4 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform:capitalize;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.img-testimonio {
+    height: 450px;
+    width: 300px;
+    padding-top: 10px;
+    padding-inline-start: 10px;
+}
+
+.testimonios p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+
+/* contactos */
+
+.contacto {
+    min-height: 300px;
+    background-color: rgba(190, 20, 20, .5) ;
+}
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+    
+    
+
+}
+
+.contacto .rectangulo {
+    margin-top: -2rem;
+    background-color: rgb(165, 15, 15);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+   display: flex; 
+   align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+.contacto p {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 2rem;
+}
+
+
+
+/* politicas y privacidad */
+
+.politicas {
+    min-height: 300px;
+    background-color: rgba(190, 20, 20, .5) ;
+}
+
+
+.accordion-item  .accordion-button {
+    background-color: rgb(165, 15, 15);
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+
+.accordion-collapse  {
+    background-color: rgb(165, 15, 15);
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+} 
+
+
+/* pie de pagina (footer) */
+
+.footer {
+    min-height: 250px;
+    background-color: rgba(190, 20, 20, .5) ;
+}
+
+.footer .logo {
+    font-size: 3rem;
+    color: rgb(165, 15, 15);
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(165, 15, 15);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* diseño responsivo */
+
+@media screen and (max-width: 890px) {
+
+    .navbar-collapse .nav-item a {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 780px) {
+
+    .navbar-collapse .nav-item a {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px ) {
+
+    .navbar {
+        max-height: 80px;
+    }
+
+    
+}
+
+@media screen and (max-width: 625px) {
+    .seccion-titulo  {
+        font-size: 3rem;
+    }
+
+    .seccion-texto {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+   
+    .seccion-titulo  {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .container-fluid .titulo-barra-nav {
+        font-size: 1.8rem;
+    }
+
+    .testimonios h1 {
+        font-size: 2rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 311px) {
+    .seccion-texto {
+        font-size: 1.2rem;
+    }
+
+    .services h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 286px) {
+    .seccion-titulo  {
+        font-size: 1.5rem;
+    }
+
+    .services h1 {
+        font-size: 2rem;
+    }
+
+    .testimonios h1 {
+        font-size: 1.5rem;
+    }
+
+    .contacto p {
+        font-size: 1.3rem;
+    }
+}
+
+
+
