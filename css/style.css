@@ -46,7 +46,11 @@
     background-color: #20e267;
 }
 
+/* ContadorDeVisitas */
 
+.contador {
+    display: none;
+}
 
 
 
