@@ -69,7 +69,6 @@
 }
 
 .navbar-collapse .navbar-brand:hover {
-    font-size: 3rem;
     color: rgb(165, 15, 15);
 }
 
@@ -428,7 +427,22 @@
 
 /* diseño responsivo */
 
+@media screen and (max-width: 929px){
+
+
+    .navbar-collapse .navbar-brand{
+        font-size: 1.8rem;
+    }
+
+}
+
+
+
 @media screen and (max-width: 890px) {
+
+    .navbar-collapse .navbar-brand{
+        font-size: 1.3rem;
+    }
 
     .navbar-collapse .nav-item a {
         font-size: 1.2rem;
@@ -438,6 +452,15 @@
 }
 
 @media screen and (max-width: 780px) {
+
+
+    .navbar-collapse .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .navbar-collapse .navbar-brand{
+        font-size: 3rem;
+    }
 
     .navbar-collapse .nav-item a {
         font-size: 1.1rem;
@@ -455,6 +478,15 @@
 }
 
 @media screen and (max-width: 625px) {
+
+    .navbar-collapse .navbar-brand{
+        font-size: 3rem;
+    }
+
+    .footer .logo{
+        font-size: 3rem;
+    }
+
     .seccion-titulo  {
         font-size: 3rem;
     }
@@ -467,6 +499,14 @@
 
 
 @media screen and (max-width: 480px) {
+
+    .navbar-collapse .navbar-brand{
+        font-size: 2.5rem;
+    }
+
+    .footer .logo{
+        font-size: 2.3rem;
+    }
    
     .seccion-titulo  {
         font-size: 2rem;
@@ -474,6 +514,14 @@
 }
 
 @media screen and (max-width: 400px) {
+
+    .navbar-collapse .navbar-brand{
+        font-size: 2rem;
+    }
+
+    .footer .logo{
+        font-size: 2rem;
+    }
 
     .container-fluid .titulo-barra-nav {
         font-size: 1.8rem;
@@ -487,6 +535,16 @@
 }
 
 @media screen and (max-width: 311px) {
+
+    .navbar-collapse .navbar-brand{
+        font-size: 1.5rem;
+    }
+
+    .footer .logo{
+        font-size: 1.5rem;
+    }
+
+
     .seccion-texto {
         font-size: 1.2rem;
     }
@@ -497,6 +555,17 @@
 }
 
 @media screen and (max-width: 286px) {
+
+    .navbar-collapse .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .footer .logo{
+        font-size: 1rem;
+    }
+
+    
+
     .seccion-titulo  {
         font-size: 1.5rem;
     }
